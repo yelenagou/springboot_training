@@ -1,0 +1,6 @@
+<application>
+  <component name="HttpConfigurable">
+    <option name="PROXY_HOST" value="http://inetgw.aa.com" />
+    <option name="PROXY_PORT" value="4713" />
+  </component>
+</application>
