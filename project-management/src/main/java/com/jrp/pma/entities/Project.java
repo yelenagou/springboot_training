@@ -24,7 +24,8 @@ public class Project {
 	}
 	@Id
 	@GeneratedValue(strategy=GenerationType.SEQUENCE, generator="project_seq")
-	@SequenceGenerator(name="project_seq",sequenceName="project_seq", allocationSize=50)
+	//@SequenceGenerator(name = "project_generator",sequenceName = "project_seq", allocationSize = 10)
+	@SequenceGenerator(name="project_seq",sequenceName="project_seq", allocationSize=10)
 	private long projectId;
 	private String name;
 	
